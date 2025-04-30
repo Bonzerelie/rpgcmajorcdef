@@ -28,12 +28,16 @@ const noteMap = {
   'C': ['c4'],
   'D': ['d4'],
   'E': ['e4'],
+  'F': ['f4'],
+  'G': ['g4'],
 };
 
 const degreeMap = {
   'C': '1st',
   'D': '2nd',
   'E': '3rd',
+  'F': '4th',
+  'G': '5th',
 };
 
 const allNotes = Object.values(noteMap).flat();
